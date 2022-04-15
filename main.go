@@ -21,9 +21,9 @@ func main() {
 	roundCount := 0
 	var patternTime = regexp.MustCompile(`^[0-5]?[0-9](h|H)[0-5]?[0-9](M|m)$`)
 
-	focusTime := flag.String("focusTime", "0h50m", "The focus time, where you can start a music and focus in your activitie (syntax 0h0m)")
-	intervalTime := flag.String("intervalTime", "0h10m", "The interval time, where you can relax before start the focus time again (syntax 0h0m)")
-	repetition := flag.Int("repetition", 1, "How much focus time you want")
+	focusTime := flag.String("focusTime", "0h50m", "The focus time, where you can start a music and focus on your activity [syntax 0h0m]")
+	intervalTime := flag.String("intervalTime", "0h10m", "The interval time, where you can relax before starting the focus time again [syntax 0h0m]")
+	repetition := flag.Int("repetition", 1, "The often of  focus time repetition")
 	flag.Parse()
 
 	if *focusTime == "" || *intervalTime == "" {
