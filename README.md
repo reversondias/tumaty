@@ -15,11 +15,12 @@ This is a little try to create a code in go to start the Pomodoro focus technic.
 
 ### Stdout
 ```
-Focus:       [ 02h01m ] 
-Interval:    [ 0h01m ] 
-Total focus: [ 10h:5m ]
+Focus:       [ 0h45m ] 
+Interval:    [ 0h10m ] 
+Total focus: [ 3h45m ]
 Round:       [  1/5  ]
 
-[Focus] TIMER -- 2h:0m:56s --
+[Focus] TIMER -- 0h:44m:55s --
 ```
-At the end of each iteration, a bell will ring and a message will be appearing.
+At the end of each iteration, a bell will ring and a message will be appearing.  
+The message beside the timer indicates which round it is the count down. There are two, Focus and Interval  
