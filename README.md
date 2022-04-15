@@ -12,3 +12,14 @@ This is a little try to create a code in go to start the Pomodoro focus technic.
     	The amount of a repetition (default 1)
 
 ```
+
+### Stdout
+```
+Focus:       [ 02h01m ] 
+Interval:    [ 0h01m ] 
+Total focus: [ 10h:5m ]
+Round:       [  1/5  ]
+
+[Focus] TIMER -- 2h:0m:56s --
+```
+At the end of each iteration, a bell will ring and a message will be appearing.
